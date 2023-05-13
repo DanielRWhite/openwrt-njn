@@ -1,0 +1,3 @@
+CONFIG_TARGET_tegra=y
+CONFIG_TARGET_tegra_cortexa57=y
+CONFIG_TARGET_tegra_cortexa57_DEVICE_jetson_nano_devkit=y
