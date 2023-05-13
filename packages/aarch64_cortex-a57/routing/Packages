@@ -1,1 +1,55 @@
+Package: ahcpd
+Version: 0.53-3
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a57
+Installed-Size: 23292
+Filename: ahcpd_0.53-3_aarch64_cortex-a57.ipk
+Size: 24042
+SHA256sum: 32a01a1eff1423176d1a93a0005fec4137a368afae99916dcb01f6957dc49e02
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: babeld
+Version: 1.12.2-1
+Depends: libc, libubus20220615, libubox20220927
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a57
+Installed-Size: 70100
+Filename: babeld_1.12.2-1_aarch64_cortex-a57.ipk
+Size: 71211
+SHA256sum: 22e9957ed8ac4a4f1cf910f198d37870d956a0fe8aae325f47988998be2f5ba6
+Description:  Babel is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4
+ with fast convergence properties. It is based on the ideas in DSDV, AODV and
+ Cisco's EIGRP, but is designed to work well not only in wired networks but
+ also in wireless mesh networks, and has been extended with support for
+ overlay networks. Babel is an IETF standard protocol (RFC 8966).
+
+Package: bmx7-json
+Version: 7.1.1-4
+Depends: libc, bmx7, libjson-c5
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a57
+Installed-Size: 8225
+Filename: bmx7-json_7.1.1-4_aarch64_cortex-a57.ipk
+Size: 8917
+SHA256sum: 68ced082581d61c38e91bb37430b6b5d6df20ad79da481a2a67be94880e492d8
+Description:  json plugin based on json-c
+
+Package: bmx7
+Version: 7.1.1-4
+Depends: libc, zlib, libmbedtls12, libiwinfo20230121
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a57
+Installed-Size: 179135
+Filename: bmx7_7.1.1-4_aarch64_cortex-a57.ipk
+Size: 179730
+SHA256sum: 4c9b16d3a161e260e8f2c7f909093ebcedcb5d8cb2bf64f224f1da1686a06f52
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
 
